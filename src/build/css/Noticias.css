@@ -1,0 +1,74 @@
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    max-width: 1200px; /* Limita el ancho máximo para que no se extienda demasiado en pantallas grandes */
+}
+
+/* Estilo de los títulos */
+h1 {
+    color: #000000;
+    font-family: 'Cursive', sans-serif;
+    text-shadow: 2px 2px #b6b6b6;
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilo para las tarjetas de los shows */
+.show-card {
+    background: #e6e6e6;
+    color: white;
+    border: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.show-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.show-card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Estilo de los títulos de las tarjetas */
+.card-title {
+    color: #000000;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Cursive', sans-serif;
+}
+
+/* Texto dentro de las tarjetas */
+.card-text {
+    color: #f0f0f0;
+    font-size: 1.1em;
+    text-align: center;
+}
+.btn-comprar {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 25px;
+    background-color: #b4b4b4; /* Color amarillo coherente con el tema */
+    color: #959595;
+    font-family: 'Cursive', sans-serif;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background-color: #a5a5a5; /* Naranja al hacer hover */
+    transform: scale(1.05);
+    color: white;
+}
+
+/* Margen entre las tarjetas */
+.card {
+    margin-bottom: 30px;
+}
